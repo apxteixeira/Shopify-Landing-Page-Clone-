@@ -24,4 +24,4 @@ Anderson Teixeira, Desenvolvedor Front-End.
 
 >GitHub: [apxteixeira](https://github.com/apxteixeira).
 
->LinkedIn: [apxteixeira]().
+>LinkedIn: [apxteixeira](https://www.linkedin.com/in/anderson-teixeira-186709268/).
