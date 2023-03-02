@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* -------------- ANNOUNCEMENT SECTION ---------------------- */
+
+#announcement {
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5e3b9;
+  font-size: 0.85rem;
+  line-height: 1rem;
+}
+
+#announcement a {
+  margin: 5px;
+  font-weight: bold;
+  color: black
+}
+
+#announcement button[onclick] {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding-left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------------- HEADING SECTION -------------------- */
+
+#heading {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/backgroundShopify.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin: 0 200px;
+}
+
+.logo {
+  margin: 25px 25px;
+}
+
+.hdTexts h1 {
+  font-weight: bold;
+  font-size: 2.7rem;
+  color: #ffff;
+  margin: 20px;
+  display: block;
+  margin: auto 15px;
+}
+
+.hdTexts p {
+  font-size: 1.5rem;
+  color: #ffff;
+  padding: 15px;
+  margin: auto 15px;
+}
+
+#heading input {
+  height: 2.5rem;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffff;
+  margin: 10px 10px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+#heading button {
+  height: 2.5rem;
+  width: 270px;
+  border-radius: 5px;
+  border: none;
+  background-color: #212326;
+  color: #ffff;
+  font-weight: bold;
+  margin: 10px 10px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+#heading button:hover {
+  background-color: #131416;
+}
+
+.emailForm {
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer {
+  padding: 15px 15px;
+  margin: 15px 15px;
+}
+
+.disclaimer p {
+  font-size: 0.6rem;
+  color: #ffff;
+}
+
+/* ------------------ STEPS SECTION --------------------- */
+
+#steps {
+  margin: 50px 20% 5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.flex div {
+  margin: 15px 10px;
+  padding: 15px 0;
+}
+
+.flex img {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: left;  
+}
+
+.flex h2 {
+  margin: 5px 0;
+  padding: 5px 0;
+  width: 250px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.flex p {
+  margin: 5px 0;
+  width: 250px;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: lighter;
+}
+
+/* ------------ SPONSORS SECTION ------------------ */
+
+#sponsors {
+  margin: 20px 25% 5rem;
+}
+
+.ctnSponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 35px 20px;
+}
+
+.ctnSponsors div {
+  margin: 10px;
+}
+
+/* ----------------- CTA SECTION ------------------- */
+
+#cta {
+  margin: 20px 30% 5rem;
+}
+
+#cta h2 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0 120px;
+  line-height: 2rem;
+}
+
+#cta p {
+  padding: 20px 0;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+#cta button {
+  height: 2.5rem;
+  width: 14rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #008060;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#cta button:hover {
+  background-color: #004c3f;
+}
+
+/* --------------- FOOTER ------------------------ */
+
+footer {
+  margin-left: 60%;
+  display: flex;
+}
+
+footer a {
+  text-decoration: none;
+  color: #008060;
+  padding: 20px;
+  font-size: 0.8rem;
+}
+
+/* -------------- MEDIA QUERY ---------------------- */
+
+@media (max-width: 1344px) {
+  #heading {
+    margin: 0;
+  }
+
+  #sponsors {
+    margin: 20px 15% 5rem;
+  }
+
+  #cta {
+    margin: 20px 15% 5rem;
+  }
+}
+
+@media (max-width: 830px) {
+  #heading br {
+    display: none;
+  }
+
+  .hdTexts h1 {
+    font-size: 1.6rem;
+  }
+
+  .emailForm {
+    display: block;
+  }
+
+  #heading input {
+    height: 3rem;
+    width: 450px;
+    margin: 10px 10px 3px;
+  }
+
+  #heading button {
+    height: 3rem;
+    width: 470px;
+    margin: 3px 10px 10px;
+  }
+
+  .emailAbout p {
+    font-size: 0.75rem;
+    color: #ffff;
+  }
+
+  .headingImg {
+    width: 70%;
+  }
+
+  #steps {
+    padding: 0 50px;
+  }
+
+  .flex h2 {
+    width: 200px;
+  }
+
+  .flex p {
+    width: 200px;
+  }
+
+  #cta h2 {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 659px) {
+  #steps {
+    margin: 50px 0 3rem;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .flex h2 {
+    width: 100%;
+  }
+
+  .flex p {
+    width: 100%;
+  }
+
+  #sponsors {
+    margin: 20px 5% 5rem;
+  }
+
+  #cta h2 {
+    padding: 0;
+  }
+
+  #cta button {
+    height: 3.5rem;
+    width: 18rem;
+    font-size: 1rem;
+  }
+
+  footer {
+    display: block;
+    margin: 0;
+  }
+
+  footer a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 566px) {
+  #heading input {
+    width: 330px;
+
+  }
+
+  #heading button {
+    width: 350px;
+  }
+
+  .hdTexts p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .hdTexts h1 {
+    font-size: 1.7rem;
+  }
+
+  #heading input {
+    width: 280px;
+  }
+
+  #heading button {
+    width: 300px;
+  }
+
+  .headingImg {
+    width: 90%;
+  }
+
+  #steps {
+    padding: 0 10px;
+  }
+
+  .flex p {
+    font-size: 1rem;
+  }
+
+  #cta button {
+    width: 90%;
+  }
+}
